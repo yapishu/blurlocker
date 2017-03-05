@@ -7,10 +7,13 @@ this is a simple, four line shell scripts that uses i3lock and mogrify to screen
 ## dependencies
 
 `i3lock`
+
 `imagemagick`
 
 ## installation
 
-add these lines to your .i3/config: 
-`bindsym $mod+l exec "~/.local/bin/fuzzy_lock.sh"
-exec xautolock -time 15 -locker '~/.local/bin/fuzzy_lock.sh' &`
+edit & add these lines to your .i3/config: 
+
+`bindsym $mod+l exec "~/path/to/lock.sh"`
+
+exec xautolock -time 15 -locker '~/path/to/lock.sh' &`
