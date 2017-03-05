@@ -16,4 +16,4 @@ edit & add these lines to your .i3/config:
 
 `bindsym $mod+l exec "~/path/to/lock.sh"`
 
-exec xautolock -time 15 -locker '~/path/to/lock.sh' &`
+`exec xautolock -time 15 -locker '~/path/to/lock.sh' &`
